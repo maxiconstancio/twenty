@@ -1,0 +1,31 @@
+export const ISSUER_IDENTIFIERS = {
+  object: 'bd913023-bfca-4f03-bf04-16aac42b6f30',
+  nameField: 'bd913023-bfca-4f03-bf04-16aac42b6f31',
+  taxIdentifierField: 'bd913023-bfca-4f03-bf04-16aac42b6f32',
+  statusField: 'bd913023-bfca-4f03-bf04-16aac42b6f33',
+  activeOption: 'bd913023-bfca-4f03-bf04-16aac42b6f34',
+  inactiveOption: 'bd913023-bfca-4f03-bf04-16aac42b6f35',
+  invoicesField: 'bd913023-bfca-4f03-bf04-16aac42b6f36',
+  navigationMenuItem: 'bd913023-bfca-4f03-bf04-16aac42b6f51',
+} as const;
+
+export const INVOICE_IDENTIFIERS = {
+  object: 'bd913023-bfca-4f03-bf04-16aac42b6f40',
+  dateField: 'bd913023-bfca-4f03-bf04-16aac42b6f41',
+  typeField: 'bd913023-bfca-4f03-bf04-16aac42b6f42',
+  numberField: 'bd913023-bfca-4f03-bf04-16aac42b6f43',
+  totalField: 'bd913023-bfca-4f03-bf04-16aac42b6f44',
+  paidField: 'bd913023-bfca-4f03-bf04-16aac42b6f45',
+  balanceField: 'bd913023-bfca-4f03-bf04-16aac42b6f46',
+  issuerField: 'bd913023-bfca-4f03-bf04-16aac42b6f47',
+  clientField: 'bd913023-bfca-4f03-bf04-16aac42b6f48',
+  statusField: 'bd913023-bfca-4f03-bf04-16aac42b6f49',
+  authorizationCodeField: 'bd913023-bfca-4f03-bf04-16aac42b6f4a',
+  issuedOption: 'bd913023-bfca-4f03-bf04-16aac42b6f4b',
+  draftOption: 'bd913023-bfca-4f03-bf04-16aac42b6f4c',
+  pendingSendOption: 'bd913023-bfca-4f03-bf04-16aac42b6f4d',
+  rejectedOption: 'bd913023-bfca-4f03-bf04-16aac42b6f4e',
+  cancelledOption: 'bd913023-bfca-4f03-bf04-16aac42b6f4f',
+  clientInvoicesField: 'bd913023-bfca-4f03-bf04-16aac42b6f50',
+  navigationMenuItem: 'bd913023-bfca-4f03-bf04-16aac42b6f52',
+} as const;
